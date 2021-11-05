@@ -1,0 +1,21 @@
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+  background-color: white;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.5rem;
+  font-family: sans-serif;
+  color: black;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: rgb(201, 225, 235);
+}
